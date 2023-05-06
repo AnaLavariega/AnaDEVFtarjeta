@@ -1,0 +1,122 @@
+* {
+    background-color: rgb(255, 255, 255);
+}
+section {
+    position: relative; /* le dice a un elemento que se mueva con respecto a otro elemento. (activa la opcion de top) mas abajo se explica) */
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    top: 130px; /* este estilo se activa con una posicion relativa, indicanto un margen superior*/
+    border: 2px solid white; /* agrega un corde de 2px color blanco en forma de linea */
+}
+.imagen img{
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.imagen {
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 100%; /* indica el ancho de un elemento */
+    height: 150px; /* indica el alto */ 
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+a {
+    padding: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.Instagram {
+    background-color: rgb(251, 144, 105);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Instagram:hover {
+    background-color: orangered;
+    position: relative;
+    bottom: 1px;
+    padding-top: 10px;
+    border-radius: 20%;
+}
+
+
+.Facebook {
+    background-color: rgb(142, 164, 254);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Facebook:hover {
+    background-color: rgb(38, 78, 237);
+    position: relative;
+    bottom: 1px;
+    padding-top: 10px;
+    border-radius: 20%;
+}
+
+.Whatsapp {
+    background-color: rgb(151, 254, 142);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Whatsapp:hover {
+    background-color: rgb(71, 237, 38);
+    position: relative;
+    bottom: 1px;
+    padding-top: 10px;
+    border-radius: 20%;
+}
+
+.Linkedin {
+    background-color: rgb(99, 123, 220);
+}
+
+.Twitter {
+    background-color: rgb(48, 200, 255);
+}
+
+h1 {
+    font-family: Montserrat, Geneva, Tahoma, sans-serif;
+    font-size: 45px;/* tamaño de la fuente */ 
+    color: rgb(14, 1, 39);
+}
+
+p {font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Etiqueta */
+div {
+    width: 200px;
+    height: 200px;
+   ;
+}
+
+*{background-color: azure;
+}
+
+.links
+{ padding-top: 100px;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.avatar {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
